@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+*{
+  box-sizing: border-box;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+.container{
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.text{
+  color: white;
+  font-family: sans-serif;
+  margin-top: -230px;
+}
+header{
+  background-image: url(/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+}
+.navbar a{
+  color: white;
+  font-weight: bold;
+}
+footer{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  gap:10px
+}
+.date{
+  font-size: small;
+  color: rgb(180, 180, 180);
+}
